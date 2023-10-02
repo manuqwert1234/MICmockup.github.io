@@ -3,43 +3,23 @@
 window.onload = function () {
     const menu_btn = document.querySelector('.hamburger');
     const menu = document.querySelector('.mobile-nav');
+    const menuLinks = menu.querySelectorAll('a');
 
     menu_btn.addEventListener('click', function () {
         menu_btn.classList.toggle('is-active');
         menu.classList.toggle('is-active'); 
     });
+
+    menuLinks.forEach(function(link) {
+        link.addEventListener('click', function() {
+            menu_btn.classList.remove('is-active');
+            menu.classList.remove('is-active');
+        });
+    });
 }
 
-// let value = document.querySelectorAll('.num');
-// let intervel = 5000;
-// console.log(value);
-
-// value.forEach((x) => {
-//     let start = 0;
-//     let end = parseInt(x.getAttribute('data-num'));
-//     let duration = Math.floor(start / end);
-//     let counter = setInterval(() => {
-//         start++;
-//         value.textcontent = start;
-//         if (start == end) {
-//             clearInterval(counter);
-//         }
-//     }, duration);
-        
-//     });
 
 
-
-
-// window.onload = function () {
-//     const menu_btn = document.querySelector('.hamburger');
-//     const menu = document.querySelector('.mobile-nav');
-
-//     menu_btn.addEventListener('click', function () {
-//         menu_btn.classList.toggle('is-active');
-//         menu.classList.toggle('is-active'); 
-//     });
-// }
 
 
 function isElementInViewport(el) {
