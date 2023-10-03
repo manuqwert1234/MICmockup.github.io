@@ -261,13 +261,15 @@ html{
     overflow-x: auto;
     gap:20px;
     margin: 0 auto;
+}
 
-   
-   
-
-
+.ourdepeartments::-webkit-scrollbar{
+    display: none;
+    -ms-overflow-style: none;  
+    scrollbar-width: none; 
 
 }
+
 
 .fullscroller{
     width: 70vw;
