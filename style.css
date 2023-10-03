@@ -58,6 +58,11 @@ html{
     flex-direction: column;
     gap: 20px;
     padding-top: 30px;
+    border: 0 solid #e5e7eb;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 
 
     margin: 100px auto;
@@ -538,7 +543,7 @@ html{
 
 
 
-@media(max-width: 400px) {
+/* @media(max-width: 400px) {
 
     body{
         overflow-x: none;
@@ -548,14 +553,16 @@ html{
     .nav img{
         margin: 0 auto;
         position: relative;
+        width: 40%;
 
         text-align: center;
 
     }
     .header img{
         display: flex;
-        width: 300px;
-        height: 300px;
+        width: 150px;
+        height: 150px;
+        padding: 30px;
         margin: 0 auto;
         left: -30px;
         }
@@ -568,7 +575,7 @@ html{
 
 
    
-}
+} */
 
 
 
@@ -598,7 +605,7 @@ html{
 }
 
 
-@media(max-width: 400px) {
+/* @media(max-width: 400px) {
     body{
         overflow-x: none;
     }
@@ -646,7 +653,7 @@ html{
     }
 
 
-}
+} */
 
 .nav img{
     min-width: 40%;
@@ -696,7 +703,7 @@ html{
 
 }
 
-@media screen and (max-width:980px){
+@media screen and (max-width:780px){
     .text-header{
         display: flex;
         margin: 0 auto;
@@ -771,6 +778,7 @@ html{
     }
 
     .nav img{
+        height: 2rem;
         width: 50%;
         margin: 0 auto;
         position: relative;
@@ -789,3 +797,5 @@ html{
     margin: 20px 10px;
 
 }
+
+/* DA EEE NOTES INDA */
