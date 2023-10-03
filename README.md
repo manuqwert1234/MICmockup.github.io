@@ -17,6 +17,4 @@
 **Contributions:**
 Contributions and improvements to the mockup are welcome. Feel free to fork this repository, make changes, and submit pull requests to enhance the design or functionality.
 
-**License:** [Specify the license used for the repository, e.g., MIT License]
-
 **Demo:** You can view the mockup live at [[GitHub Pages URL](https://manuqwert1234.github.io/MICmockup.github.io/)https://manuqwert1234.github.io/MICmockup.github.io/].
