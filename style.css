@@ -779,7 +779,7 @@ html{
         text-align:center;
     }
 
-    ..nav img{
+    .nav img{
         height: 2rem;
         width: 2%;
         position: relative;
