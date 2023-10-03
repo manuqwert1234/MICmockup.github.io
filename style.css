@@ -777,11 +777,10 @@ html{
         text-align:center;
     }
 
-    .nav img{
-        height: 30px;
-        width: 140px;
+    ..nav img{
+        height: 2rem;
+        width: 2%;
         position: relative;
-        left: -10px;
     }
 
 }
